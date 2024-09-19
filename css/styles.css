@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/header-restaurant.png");
+    background-size: cover;
+    background-position: center;
+    font-family: "Montserrat", sans-serif;
+}
+/* Apuntamos a la barra de navegación que está dentro de header */
+header nav{
+    /* background-color: red; */
+    display: flex;
+    /* height: 400px; */
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    
+    
+
+}
+
+header ul a{
+    color: #F0BF4C;
+    font-size: 30px;
+    margin: 0 18px;
+    text-decoration: none;
+    transition: .6s;
+    font-family: "Montserrat", sans-serif;
+}
+
+header ul a:hover{
+    border-bottom: 2px solid #F0BF4C;
+}
+
+#hero{
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 110px;
+    
+}
+
+#hero h2{
+    color: #F0BF4C;
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#hero h1 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 100px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#seleccion{
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+    background-color: black;
+
+}
+#seleccion h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #F0BF4C;
+    font-family: "Montserrat", sans-serif;
+}
+
+#seleccion .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#seleccion article{
+    margin: 0 50px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+
+#logo1{
+    transition: 1s;
+}
+
+#logo1:hover{
+
+    transform: scale(1.1);
+    border-radius: 0%;
+}
+
+.Nigiri{
+    margin-top: 20px;
+}
+
+#logo2{
+    transition: 1s;
+}
+
+#logo2:hover{
+
+    transform: scale(1.1);
+    border-radius: 0%;
+}
+
+.Takoyaki{
+    margin-top: 20px;
+}
+
+#logo3{
+    transition: 1s;
+}
+
+#logo3:hover{
+
+    transform: scale(1.1);
+    border-radius: 0%;
+}
+
+.Yakitori{
+    margin-top: 20px;
+}
+
+#logo4{
+    transition: 1s;
+}
+
+#logo4:hover{
+
+    transform: scale(1.1);
+    border-radius: 0%;
+}
+
+.Sushi{
+    margin-top: 20px;
+}
+
+#logo5{
+    transition: 1s;
+}
+
+#logo5:hover{
+
+    transform: scale(1.1);
+    border-radius: 0%;
+}
+
+.Ramen{
+    margin-top: 20px;
+}
+
+#logo6{
+    transition: 1s;
+}
+
+#logo6:hover{
+
+    transform: scale(1.1);
+    border-radius: 0%;
+}
+
+.Tempura{
+    margin-top: 20px;
+}
+
+#logo7{
+    transition: 1s;
+}
+
+#logo7:hover{
+
+    transform: scale(1.1);
+    border-radius: 0%;
+}
+
+.Okonomiyaki{
+    margin-top: 20px;
+}
+
+#logo8{
+    transition: 1s;
+}
+
+#logo8:hover{
+
+    transform: scale(1.1);
+    border-radius: 0%;
+}
+
+.Mochis{
+    margin-top: 20px;
+}
+
+#seleccion article h3{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+#precios{
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+    color: #ffff;
+
+}
+#precios h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #F0BF4C;
+    font-family: "Montserrat", sans-serif;
+}
+
+#precios .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#precios article{
+    margin: 0 50px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+
+#precios{
+    background: url(../img/main-fuji.png);
+    background-size: cover;
+}
+
+#contacto h2{
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#contacto p{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#contacto{
+    width: 100%;
+    text-align: center;
+    color: #F0BF4C;
+    padding: 100px 0;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+#contacto form{
+    width: 50%;
+    margin: 40px auto;
+    
+}
+
+#contacto input,
+#contacto select{
+    width: 40%;
+    padding: 8px 14px;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+#contacto button{
+    padding: 14px 30px;
+    font-size: 20px;
+    background-color: #F0BF4C;
+    color: black;
+    border-radius: 8px;
+    margin-top: 60px;
+    border-color: transparent;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+#Redes h2{
+    font-size: 50px;
+}
+
+#Redes p{
+    font-size: 20px;
+}
+
+#Redes{
+    width: 100%;
+    text-align: center;
+    color: #F0BF4C;
+    padding: 100px 0;
+    background: url(../img/fondo-redes.png);
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+}
+
+#Redes form{
+    width: 50%;
+    margin: 40px auto;
+    
+}
+
+#Redes .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#Redes article{
+    margin: 0 50px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+
+#Facebook{
+    transition: 1s;
+}
+
+#Facebook:hover{
+
+    transform: scale(1.1);
+    border-radius: 0%;
+}
+
+.Facebook{
+    margin-top: 20px;
+}
+
+#Instagram{
+    transition: 1s;
+}
+
+#Instagram:hover{
+
+    transform: scale(1.1);
+    border-radius: 0%;
+}
+
+.Instagram{
+    margin-top: 20px;
+}
+
+#X{
+    transition: 1s;
+}
+
+#X:hover{
+
+    transform: scale(1.1);
+    border-radius: 0%;
+}
+
+.X{
+    margin-top: 20px;
+}
+
+#Youtube{
+    transition: 1s;
+}
+
+#Youtube:hover{
+
+    transform: scale(1.1);
+    border-radius: 0%;
+}
+
+.Youtube{
+    margin-top: 20px;
+}
+
+
+footer{
+    background-color: black;
+    color: #ffff;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
